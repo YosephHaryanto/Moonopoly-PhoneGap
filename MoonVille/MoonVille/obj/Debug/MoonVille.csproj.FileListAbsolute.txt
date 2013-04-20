@@ -1,0 +1,17 @@
+C:\Users\AFB\Documents\Visual Studio 2012\Projects\MoonVille\MoonVille\Bin\Debug\ApplicationIcon.png
+C:\Users\AFB\Documents\Visual Studio 2012\Projects\MoonVille\MoonVille\Bin\Debug\Background.png
+C:\Users\AFB\Documents\Visual Studio 2012\Projects\MoonVille\MoonVille\Bin\Debug\MoonVille.dll
+C:\Users\AFB\Documents\Visual Studio 2012\Projects\MoonVille\MoonVille\Bin\Debug\MoonVille.pdb
+C:\Users\AFB\Documents\Visual Studio 2012\Projects\MoonVille\MoonVille\Bin\Debug\AppManifest.xaml
+C:\Users\AFB\Documents\Visual Studio 2012\Projects\MoonVille\MoonVille\Bin\Debug\CordovaAppProj_Debug_AnyCPU.xap
+C:\Users\AFB\Documents\Visual Studio 2012\Projects\MoonVille\MoonVille\obj\Debug\App.g.cs
+C:\Users\AFB\Documents\Visual Studio 2012\Projects\MoonVille\MoonVille\obj\Debug\cordovalib\CordovaView.g.cs
+C:\Users\AFB\Documents\Visual Studio 2012\Projects\MoonVille\MoonVille\obj\Debug\cordovalib\UI\AudioRecorder.g.cs
+C:\Users\AFB\Documents\Visual Studio 2012\Projects\MoonVille\MoonVille\obj\Debug\cordovalib\UI\ImageCapture.g.cs
+C:\Users\AFB\Documents\Visual Studio 2012\Projects\MoonVille\MoonVille\obj\Debug\cordovalib\UI\NotificationBox.g.cs
+C:\Users\AFB\Documents\Visual Studio 2012\Projects\MoonVille\MoonVille\obj\Debug\cordovalib\UI\VideoRecorder.g.cs
+C:\Users\AFB\Documents\Visual Studio 2012\Projects\MoonVille\MoonVille\obj\Debug\MainPage.g.cs
+C:\Users\AFB\Documents\Visual Studio 2012\Projects\MoonVille\MoonVille\obj\Debug\MoonVille.g.resources
+C:\Users\AFB\Documents\Visual Studio 2012\Projects\MoonVille\MoonVille\obj\Debug\MoonVille.dll
+C:\Users\AFB\Documents\Visual Studio 2012\Projects\MoonVille\MoonVille\obj\Debug\MoonVille.pdb
+C:\Users\AFB\Documents\Visual Studio 2012\Projects\MoonVille\MoonVille\obj\Debug\XapCacheFile.xml

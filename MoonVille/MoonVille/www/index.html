@@ -1,0 +1,130 @@
+﻿<!DOCTYPE html>
+<!--
+       Licensed to the Apache Software Foundation (ASF) under one
+       or more contributor license agreements.  See the NOTICE file
+       distributed with this work for additional information
+       regarding copyright ownership.  The ASF licenses this file
+       to you under the Apache License, Version 2.0 (the
+       "License"); you may not use this file except in compliance
+       with the License.  You may obtain a copy of the License at
+
+         http://www.apache.org/licenses/LICENSE-2.0
+
+       Unless required by applicable law or agreed to in writing,
+       software distributed under the License is distributed on an
+       "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+       KIND, either express or implied.  See the License for the
+       specific language governing permissions and limitations
+       under the License.
+-->
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+        <link rel="stylesheet" type="text/css" href="css/index.css" />
+        <link rel="stylesheet" type="text/css" href="css/moonville.css" />
+        <title>Hello World</title>
+        <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+        <script type="text/javascript" src="js/moonville.js"></script>
+    </head>
+    <body onload="layer.display('screen_mainmenu');">
+      <!-- LAYER: MAIN MENU -->
+      <div id="screen_mainmenu" class="gamelayer">
+        <div id="control_mainmenu" class="center textcenter">
+           Welcome <br/>
+          <div class="mbot10" onclick="layer.display('screen_new');"></div>
+          <div class="mbot10" onclick="layer.display('screen_continue');"></div>
+          <div class="mbot10" onclick="layer.display('screen_credit');"></div>
+        </div>
+      </div>
+      <!-- LAYER: NEW GAME -->
+      <div id="screen_new" class="gamelayer">
+        <div id="control_new" class="center">
+          Screen New Game<br/>
+          <input type="button" value="Start" class="mbot10" onclick="layer.display('screen_prospect');"/><br/>
+          <br/>
+          <input type="button" value="Main Menu" class="mbot10" onclick="layer.display('screen_mainmenu');"/><br/>
+          <br/>
+        </div>
+      </div>
+      <!-- LAYER: CONTINUE -->
+      <div id="screen_continue" class="gamelayer">
+        <div id="control_continue" class="center">
+          Continue Screen <br/>
+          <input type="button" value="Start" class="mbot10" onclick="layer.display('screen_dashboard');"/><br/>
+          <br/>
+          <input type="button" value="Main Menu" class="mbot10" onclick="layer.display('screen_mainmenu');"/><br/>
+        </div>
+      </div>
+      <!-- LAYER: CREDIT -->
+      <div id="screen_credit" class="gamelayer">
+        <div id="control_credit" class="center">
+          Credit Screen <br/>
+          <input type="button" value="Main Menu" class="mbot10" onclick="layer.display('screen_mainmenu');"/><br/>
+        </div>
+      </div>
+      <!-- LAYER: PROSPECT -->
+      <div id="screen_prospect" class="gamelayer">
+        <div id="control_prospect" class="center">
+          Prospect Screen <br/>
+          <input type="button" value="OK" class="mbot10" onclick="layer.display('screen_dashboard');"/><br/>          
+        </div>
+      </div>
+      <!-- LAYER: DASHBOARD -->
+      <div id="screen_dashboard" class="gamelayer">
+        <div id="control_dashboard" class="center">
+          Dashboard Screen <br/>
+          <input type="button" value="Site 1: Transportation" class="mbot10" onclick="layer.display('screen_sitetransportation');"/><br/>
+          <input type="button" value="Site 2: Research" class="mbot10" onclick="layer.display('screen_siteresearch');"/><br/>
+          <input type="button" value="Site 3: Resources" class="mbot10" onclick="layer.display('screen_siteresource');"/><br/>
+          <input type="button" value="Site 4: Etc" class="mbot10" onclick=""/><br/>
+          <input type="button" value="Main Menu" class="mbot10" onclick="layer.display('screen_mainmenu');"/><br/>
+        </div>
+      </div>
+      <!-- LAYER: SITE - TRANSPORTATION -->
+      <div id="screen_sitetransportation" class="gamelayer">
+        <div id="control_sitetransportation" class="center">
+          TRANSPORTATION SITES <br/>
+          Building 1 <br/>
+          Building 2 <br/>
+          Building 3 <br/>
+          Building 4 <br/>
+          Building 5 <br/>
+          Building 6 <br/>
+          <input type="button" value="Back To Dashboard" class="mbot10" onclick="layer.display('screen_dashboard');"/><br/>
+        </div>
+      </div>
+      <!-- LAYER: SITE - RESEARCH -->
+      <div id="screen_siteresearch" class="gamelayer">
+        <div id="control_siteresearch" class="center">
+          RESEARCH SITES <br/>
+          Building 1 <br/>
+          Building 2 <br/>
+          Building 3 <br/>
+          Building 4 <br/>
+          Building 5 <br/>
+          Building 6 <br/>
+          <input type="button" value="Back To Dashboard" class="mbot10" onclick="layer.display('screen_dashboard');"/><br/>
+        </div>
+      </div>
+      <!-- LAYER: SITE - RESOURCE -->
+      <div id="screen_siteresource" class="gamelayer">
+        <div id="control_siteresource" class="center">
+          RESOURCE SITES <br/>
+          Building 1 <br/>
+          Building 2 <br/>
+          Building 3 <br/>
+          Building 4 <br/>
+          Building 5 <br/>
+          Building 6 <br/>
+          <input type="button" value="Back To Dashboard" class="mbot10" onclick="layer.display('screen_dashboard');"/><br/>
+        </div>
+      </div>
+      <script type="text/javascript" src="cordova-2.6.0.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+        <script type="text/javascript">
+            app.initialize();
+        </script>
+    </body>
+</html>

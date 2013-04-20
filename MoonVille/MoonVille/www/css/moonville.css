@@ -1,0 +1,26 @@
+.gamelayer {
+	height:100%;
+	width:100%;
+	position:absolute;
+	display:none;
+	border:1px solid black;
+}
+
+.center {
+	width: 75%;
+    height: 75%;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.textcenter {
+	text-align:center;
+}
+
+.mbot10{
+	margin-bottom:10px;
+}
