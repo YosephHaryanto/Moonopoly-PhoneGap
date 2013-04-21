@@ -215,12 +215,17 @@
     <Content Include="Images\appbar.save.rest.png" />
     <Content Include="Images\appbar.stop.rest.png" />
     <Content Include="resources\notification-beep.wav" />
+    <Content Include="www\asset\background\background_main.png" />
+    <Content Include="www\asset\button\btnNewGame.png" />
+    <Content Include="www\asset\button\btnContinue.png" />
+    <Content Include="www\asset\button\btnCredits.png" />
     <Content Include="www\cordova-2.6.0.js" />
     <Content Include="www\css\moonville.css" />
     <Content Include="www\img\logo.png" />
     <Content Include="www\js\index.js" />
     <Content Include="www\js\jquery-1.9.1.min.js" />
     <Content Include="www\js\moonville.js" />
+    <Content Include="www\js\screentransition.js" />
     <None Include="VERSION" />
     <Resource Include="cordovalib\Images\appbar.back.rest.png" />
     <Resource Include="cordovalib\Images\appbar.close.rest.png" />

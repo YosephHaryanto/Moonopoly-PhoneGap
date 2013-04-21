@@ -27,64 +27,65 @@
         <title>Hello World</title>
         <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
         <script type="text/javascript" src="js/moonville.js"></script>
+        <script type="text/javascript" src="js/screentransition.js"></script>
     </head>
-    <body onload="layer.display('screen_mainmenu');">
+    <body>
       <!-- LAYER: MAIN MENU -->
       <div id="screen_mainmenu" class="gamelayer">
-        <div id="control_mainmenu" class="center textcenter">
-           Welcome <br/>
-          <div class="mbot10" onclick="layer.display('screen_new');"></div>
-          <div class="mbot10" onclick="layer.display('screen_continue');"></div>
-          <div class="mbot10" onclick="layer.display('screen_credit');"></div>
+        <div id="control_mainmenu">
+          <div class="menucontainer classBtn" id="btnNewGame" onclick="state.loadNewGame('screen_mainmenu');"></div>
+          <div class="menucontainer classBtn" id="btnContinueGame" onclick="state.loadContinueGame('screen_mainmenu');"></div>
+          <div class="menucontainer classBtn" id="btnCredits" onclick="state.loadCredit('screen_mainmenu');"></div>
         </div>
       </div>
-      <!-- LAYER: NEW GAME ZAHID -->
+      <!-- LAYER: NEW GAME -->
       <div id="screen_new" class="gamelayer">
-        <div id="control_new" class="center">
-          Screen New Game<br/>
-          <input type="button" value="Start" class="mbot10" onclick="layer.display('screen_prospect');"/><br/>
-          <br/>
-          <input type="button" value="Main Menu" class="mbot10" onclick="layer.display('screen_mainmenu');"/><br/>
-          <br/>
+        <div id="control_new">
+          <div class="center textcenter" style="width:75%; height:400px; background-color:rgba(255,255,255,0.7);" id="newcompanyform">
+            <p style="font-size:24px">
+              Welcome! Please enter your Company Name:<br/>
+            </p>
+            <input type="text" placeholder="Cunto"/>
+            <br/>
+            <input type="radio" name="difficultyLevel" value="easy"/> Easy <br/>
+            <input type="radio" name="difficultyLevel" value="normal"/> Normal <br/>
+            <input type="radio" name="difficultyLevel" value="hard"/> Hard<br/> <br/>
+            <input type="button" onclick="state.loadProspect('screen_new');" value="Take Me To The Moon!"/>
+          </div>
+          <div class="menucontainer classBtn" onclick="state.loadMainMenu('screen_new');"></div>
         </div>
       </div>
       <!-- LAYER: CONTINUE -->
       <div id="screen_continue" class="gamelayer">
-        <div id="control_continue" class="center">
-          Continue Screen <br/>
-          <input type="button" value="Start" class="mbot10" onclick="layer.display('screen_dashboard');"/><br/>
-          <br/>
-          <input type="button" value="Main Menu" class="mbot10" onclick="layer.display('screen_mainmenu');"/><br/>
+        <div id="control_continue">
+          <div class="menucontainer classBtn" id="btnContinue" onclick="state.loadDashboard('screen_continue');"></div>
+          <div class="menucontainer classBtn" onclick="state.loadMainMenu('screen_continue');"></div>
         </div>
       </div>
       <!-- LAYER: CREDIT -->
-      <div id="screen_credit" class="gamelayer">
-        <div id="control_credit" class="center">
-          Credit Screen <br/>
-          <input type="button" value="Main Menu" class="mbot10" onclick="layer.display('screen_mainmenu');"/><br/>
+      <div id="screen_credits" class="gamelayer">
+        <div id="control_credits">
+          <div class="menucontainer classBtn" onclick="state.loadMainMenu('screen_credits');"></div>
         </div>
       </div>
       <!-- LAYER: PROSPECT -->
       <div id="screen_prospect" class="gamelayer">
-        <div id="control_prospect" class="center">
-          Prospect Screen <br/>
-          <input type="button" value="OK" class="mbot10" onclick="layer.display('screen_dashboard');"/><br/>          
+        <div id="control_prospect">
+          <div class="menucontainer classBtn" onclick="state.loadDashboard('screen_prospect');"></div>  
         </div>
       </div>
       <!-- LAYER: DASHBOARD -->
       <div id="screen_dashboard" class="gamelayer">
-        <div id="control_dashboard" class="center">
-          Dashboard Screen <br/>
-          <input type="button" value="Site 1: Transportation" class="mbot10" onclick="layer.display('screen_sitetransportation');"/><br/>
-          <input type="button" value="Site 2: Research" class="mbot10" onclick="layer.display('screen_siteresearch');"/><br/>
-          <input type="button" value="Site 3: Resources" class="mbot10" onclick="layer.display('screen_siteresource');"/><br/>
-          <input type="button" value="Site 4: Etc" class="mbot10" onclick=""/><br/>
-          <input type="button" value="Main Menu" class="mbot10" onclick="layer.display('screen_mainmenu');"/><br/>
+        <div id="control_dashboard">
+          <div class="menucontainer classBtn" id="btnTransportation" onclick="state.loadTransportation('screen_dashboard');"></div>
+          <div class="menucontainer classBtn" id="btnResearch" onclick="state.loadResearch('screen_dashboard');"></div>
+          <div class="menucontainer classBtn" id="btnProduction" onclick="state.loadProduction('screen_dashboard');"></div>
+          <div class="menucontainer classBtn" onclick="state.loadMainMenu('screen_dashboard');"></div>
         </div>
       </div>
       <!-- LAYER: SITE - TRANSPORTATION -->
       <div id="screen_sitetransportation" class="gamelayer">
-        <div id="control_sitetransportation" class="center">
+        <div id="control_sitetransportation">
           TRANSPORTATION SITES <br/>
           Building 1 <br/>
           Building 2 <br/>
@@ -92,12 +93,12 @@
           Building 4 <br/>
           Building 5 <br/>
           Building 6 <br/>
-          <input type="button" value="Back To Dashboard" class="mbot10" onclick="layer.display('screen_dashboard');"/><br/>
+          <div class="menucontainer classBtn" onclick="state.loadDashboard('screen_sitetransportation');"></div>
         </div>
       </div>
       <!-- LAYER: SITE - RESEARCH -->
       <div id="screen_siteresearch" class="gamelayer">
-        <div id="control_siteresearch" class="center">
+        <div id="control_siteresearch">
           RESEARCH SITES <br/>
           Building 1 <br/>
           Building 2 <br/>
@@ -105,12 +106,12 @@
           Building 4 <br/>
           Building 5 <br/>
           Building 6 <br/>
-          <input type="button" value="Back To Dashboard" class="mbot10" onclick="layer.display('screen_dashboard');"/><br/>
+          <div class="menucontainer classBtn" onclick="state.loadDashboard('screen_siteresearch');"></div>
         </div>
       </div>
       <!-- LAYER: SITE - RESOURCE -->
-      <div id="screen_siteresource" class="gamelayer">
-        <div id="control_siteresource" class="center">
+      <div id="screen_siteproduction" class="gamelayer">
+        <div id="control_siteproduction">
           RESOURCE SITES <br/>
           Building 1 <br/>
           Building 2 <br/>
@@ -118,7 +119,7 @@
           Building 4 <br/>
           Building 5 <br/>
           Building 6 <br/>
-          <input type="button" value="Back To Dashboard" class="mbot10" onclick="layer.display('screen_dashboard');"/><br/>
+          <div class="menucontainer classBtn" onclick="state.loadDashboard('screen_siteproduction');"></div>
         </div>
       </div>
       <script type="text/javascript" src="cordova-2.6.0.js"></script>

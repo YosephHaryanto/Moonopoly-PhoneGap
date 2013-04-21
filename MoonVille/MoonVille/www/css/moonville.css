@@ -1,9 +1,28 @@
+body {
+	overflow:hidden;
+	-ms-content-zooming:none;
+	background-color:black;
+}
+
+@media screen and (orientation: portrait) {
+    @-ms-viewport {
+        width: 100%;
+		height:100%;
+        user-zoom: fixed;
+        max-zoom: 1;
+        min-zoom: 1;
+    }
+}
+
 .gamelayer {
 	height:100%;
 	width:100%;
 	position:absolute;
 	display:none;
-	border:1px solid black;
+
+	background-image:url(../asset/background/background_main.png);
+	background-size: 100%;
+	background-repeat:no-repeat;
 }
 
 .center {
@@ -15,6 +34,78 @@
     left: 0;
     right: 0;
     margin: auto;
+}
+
+
+/** SCREENBACKGROUND */
+#screen_mainmenu {
+	
+}
+
+
+/** MENU UI */
+
+.menucontainer{
+	width:480px;
+	height:84px;
+	
+}
+
+#btnNewGame{
+	background-image:url(../asset/button/btnNewGame.png);
+	margin-top:200px;
+	background-size: 100%;
+	background-repeat:no-repeat;
+	margin-left:-100%;
+}
+
+#btnContinueGame{
+	background-image:url(../asset/button/btnContinue.png);
+	margin-top:20px;
+	background-size: 100%;
+	background-repeat:no-repeat;
+	margin-left:-100%;
+}
+
+#btnCredits{
+	background-image:url(../asset/button/btnCredits.png);
+	margin-top:20px;
+	background-size: 100%;
+	background-repeat:no-repeat;
+	margin-left:-100%;
+}
+
+#newcompanyform input[type="text"]{
+    
+    padding: 5px;   
+    border: 1px solid #DDDDDD;
+	
+	font-size: 24px; 
+	width: 80%;
+    
+    /*Applying CSS3 gradient*/
+    background: -moz-linear-gradient(center top , #FFFFFF,  #EEEEEE 1px, #FFFFFF 20px);    
+    background: -webkit-gradient(linear, left top, left 20, from(#FFFFFF), color-stop(5%, #EEEEEE) to(#FFFFFF));
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FBFBFB', endColorstr='#FFFFFF');
+    
+    /*Applying CSS 3radius*/   
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    
+    /*Applying CSS3 box shadow*/
+    -moz-box-shadow: 0 0 2px #DDDDDD;
+    -webkit-box-shadow: 0 0 2px #DDDDDD;
+    box-shadow: 0 0 2px #DDDDDD;
+
+}
+#newcompanyform input[type="text"]:hover
+{
+    border:1px solid #cccccc;
+}
+#newcompanyform input[type="text"]:focus
+{
+    box-shadow:0 0 2px #FFFE00;
 }
 
 .textcenter {

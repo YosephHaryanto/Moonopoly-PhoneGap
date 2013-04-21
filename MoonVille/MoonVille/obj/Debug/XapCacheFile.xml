@@ -1,5 +1,5 @@
-﻿<xapCache source="C:\Users\AFB\Documents\Visual Studio 2012\Projects\MoonVille\MoonVille\Bin\Debug\CordovaAppProj_Debug_AnyCPU.xap" wasSigned="False" certificateThumbprint="" TimeStampUrl="" lastWriteTime="4/20/2013 1:29:02 PM">
-  <file source="C:\Users\AFB\Documents\Visual Studio 2012\Projects\MoonVille\MoonVille\obj\Debug\MoonVille.dll" archivePath="MoonVille.dll" lastWriteTime="4/20/2013 1:23:53 PM" />
+﻿<xapCache source="C:\Users\AFB\Documents\Visual Studio 2012\Projects\MoonVille\MoonVille\Bin\Debug\CordovaAppProj_Debug_AnyCPU.xap" wasSigned="False" certificateThumbprint="" TimeStampUrl="" lastWriteTime="4/20/2013 7:14:29 PM">
+  <file source="C:\Users\AFB\Documents\Visual Studio 2012\Projects\MoonVille\MoonVille\obj\Debug\MoonVille.dll" archivePath="MoonVille.dll" lastWriteTime="4/20/2013 5:37:53 PM" />
   <file source="C:\Users\AFB\Documents\Visual Studio 2012\Projects\MoonVille\MoonVille\config.xml" archivePath="config.xml" lastWriteTime="4/19/2013 8:27:49 PM" />
   <file source="C:\Users\AFB\Documents\Visual Studio 2012\Projects\MoonVille\MoonVille\Images\appbar.back.rest.png" archivePath="Images\appbar.back.rest.png" lastWriteTime="4/19/2013 8:27:49 PM" />
   <file source="C:\Users\AFB\Documents\Visual Studio 2012\Projects\MoonVille\MoonVille\Images\appbar.close.rest.png" archivePath="Images\appbar.close.rest.png" lastWriteTime="4/19/2013 8:27:49 PM" />
@@ -8,15 +8,20 @@
   <file source="C:\Users\AFB\Documents\Visual Studio 2012\Projects\MoonVille\MoonVille\Images\appbar.save.rest.png" archivePath="Images\appbar.save.rest.png" lastWriteTime="4/19/2013 8:27:49 PM" />
   <file source="C:\Users\AFB\Documents\Visual Studio 2012\Projects\MoonVille\MoonVille\Images\appbar.stop.rest.png" archivePath="Images\appbar.stop.rest.png" lastWriteTime="4/19/2013 8:27:49 PM" />
   <file source="C:\Users\AFB\Documents\Visual Studio 2012\Projects\MoonVille\MoonVille\resources\notification-beep.wav" archivePath="resources\notification-beep.wav" lastWriteTime="4/19/2013 8:27:49 PM" />
-  <file source="C:\Users\AFB\Documents\Visual Studio 2012\Projects\MoonVille\MoonVille\www\cordova-2.6.0.js" archivePath="www\cordova-2.6.0.js" lastWriteTime="4/19/2013 8:27:49 PM" />
-  <file source="C:\Users\AFB\Documents\Visual Studio 2012\Projects\MoonVille\MoonVille\www\css\moonville.css" archivePath="www\css\moonville.css" lastWriteTime="4/20/2013 1:29:00 PM" />
+  <file source="C:\Users\AFB\Documents\Visual Studio 2012\Projects\MoonVille\MoonVille\www\asset\background\background_main.png" archivePath="www\asset\background\background_main.png" lastWriteTime="4/20/2013 5:37:39 PM" />
+  <file source="C:\Users\AFB\Documents\Visual Studio 2012\Projects\MoonVille\MoonVille\www\asset\button\btnNewGame.png" archivePath="www\asset\button\btnNewGame.png" lastWriteTime="4/20/2013 4:37:18 AM" />
+  <file source="C:\Users\AFB\Documents\Visual Studio 2012\Projects\MoonVille\MoonVille\www\asset\button\btnContinue.png" archivePath="www\asset\button\btnContinue.png" lastWriteTime="4/20/2013 4:37:33 AM" />
+  <file source="C:\Users\AFB\Documents\Visual Studio 2012\Projects\MoonVille\MoonVille\www\asset\button\btnCredits.png" archivePath="www\asset\button\btnCredits.png" lastWriteTime="4/20/2013 4:37:49 AM" />
+  <file source="C:\Users\AFB\Documents\Visual Studio 2012\Projects\MoonVille\MoonVille\www\cordova-2.6.0.js" archivePath="www\cordova-2.6.0.js" lastWriteTime="4/20/2013 3:34:16 PM" />
+  <file source="C:\Users\AFB\Documents\Visual Studio 2012\Projects\MoonVille\MoonVille\www\css\moonville.css" archivePath="www\css\moonville.css" lastWriteTime="4/20/2013 7:13:02 PM" />
   <file source="C:\Users\AFB\Documents\Visual Studio 2012\Projects\MoonVille\MoonVille\www\img\logo.png" archivePath="www\img\logo.png" lastWriteTime="4/19/2013 8:27:49 PM" />
-  <file source="C:\Users\AFB\Documents\Visual Studio 2012\Projects\MoonVille\MoonVille\www\js\index.js" archivePath="www\js\index.js" lastWriteTime="4/19/2013 8:27:49 PM" />
+  <file source="C:\Users\AFB\Documents\Visual Studio 2012\Projects\MoonVille\MoonVille\www\js\index.js" archivePath="www\js\index.js" lastWriteTime="4/20/2013 5:05:11 PM" />
   <file source="C:\Users\AFB\Documents\Visual Studio 2012\Projects\MoonVille\MoonVille\www\js\jquery-1.9.1.min.js" archivePath="www\js\jquery-1.9.1.min.js" lastWriteTime="4/19/2013 8:40:35 PM" />
-  <file source="C:\Users\AFB\Documents\Visual Studio 2012\Projects\MoonVille\MoonVille\www\js\moonville.js" archivePath="www\js\moonville.js" lastWriteTime="4/19/2013 9:59:23 PM" />
+  <file source="C:\Users\AFB\Documents\Visual Studio 2012\Projects\MoonVille\MoonVille\www\js\moonville.js" archivePath="www\js\moonville.js" lastWriteTime="4/20/2013 3:55:27 PM" />
+  <file source="C:\Users\AFB\Documents\Visual Studio 2012\Projects\MoonVille\MoonVille\www\js\screentransition.js" archivePath="www\js\screentransition.js" lastWriteTime="4/20/2013 7:14:20 PM" />
   <file source="C:\Users\AFB\Documents\Visual Studio 2012\Projects\MoonVille\MoonVille\cordovalib\resources\notification-beep.wav" archivePath="cordovalib\resources\notification-beep.wav" lastWriteTime="4/19/2013 8:27:49 PM" />
-  <file source="C:\Users\AFB\Documents\Visual Studio 2012\Projects\MoonVille\MoonVille\www\css\index.css" archivePath="www\css\index.css" lastWriteTime="4/19/2013 8:27:49 PM" />
-  <file source="C:\Users\AFB\Documents\Visual Studio 2012\Projects\MoonVille\MoonVille\www\index.html" archivePath="www\index.html" lastWriteTime="4/20/2013 1:28:52 PM" />
+  <file source="C:\Users\AFB\Documents\Visual Studio 2012\Projects\MoonVille\MoonVille\www\css\index.css" archivePath="www\css\index.css" lastWriteTime="4/20/2013 3:03:04 PM" />
+  <file source="C:\Users\AFB\Documents\Visual Studio 2012\Projects\MoonVille\MoonVille\www\index.html" archivePath="www\index.html" lastWriteTime="4/20/2013 7:08:12 PM" />
   <file source="C:\Users\AFB\Documents\Visual Studio 2012\Projects\MoonVille\MoonVille\SplashScreenImage.jpg" archivePath="SplashScreenImage.jpg" lastWriteTime="4/19/2013 8:27:49 PM" />
   <file source="C:\Users\AFB\Documents\Visual Studio 2012\Projects\MoonVille\MoonVille\Bin\Debug\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="4/19/2013 8:30:46 PM" />
   <file source="C:\Users\AFB\Documents\Visual Studio 2012\Projects\MoonVille\MoonVille\Bin\Debug\ApplicationIcon.png" archivePath="ApplicationIcon.png" lastWriteTime="4/19/2013 8:27:49 PM" />
