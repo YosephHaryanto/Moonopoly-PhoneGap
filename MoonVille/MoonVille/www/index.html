@@ -26,8 +26,19 @@
         <link rel="stylesheet" type="text/css" href="css/moonville.css" />
         <title>Hello World</title>
         <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+        <script type="text/javascript" src="js/jqueryUI.js"></script>
         <script type="text/javascript" src="js/moonville.js"></script>
         <script type="text/javascript" src="js/screentransition.js"></script>
+        <script type="text/javascript" src="js/loader.js"></script>
+
+        <script type="text/javascript" src="js/backend/code.js"></script>
+        <script type="text/javascript" src="js/backend/Company.js"></script>
+      <script type="text/javascript" src="js/backend/MoonBaseJSON.js"></script>
+      <script type="text/javascript" src="js/backend/MoonBase.js"></script>
+      <script type="text/javascript" src="js/backend/Resources.js"></script>
+      <script type="text/javascript" src="js/backend/ResourcesJSON.js"></script>
+      <script type="text/javascript" src="js/backend/buildingjson.js"></script>
+      <script type="text/javascript" src="js/backend/BuildingType.js"></script>
     </head>
     <body>
       <!-- LAYER: MAIN MENU -->
@@ -41,18 +52,15 @@
       <!-- LAYER: NEW GAME -->
       <div id="screen_new" class="gamelayer">
         <div id="control_new">
-          <div class="center textcenter" style="width:75%; height:400px; background-color:rgba(255,255,255,0.7);" id="newcompanyform">
-            <p style="font-size:24px">
-              Welcome! Please enter your Company Name:<br/>
-            </p>
-            <input type="text" placeholder="Cunto"/>
+          <div class="textcenter" id="newcompanyform">
+            <div class="menucontainer classBtn blink" id="btnNewCompany" onclick="state.leaveNewGame(state.loadMainMenu,'screen_new');"></div>
+            <input type="text" id="Screen_New_CompanyName" placeholder="Moonopoly Company"/>
             <br/>
             <input type="radio" name="difficultyLevel" value="easy"/> Easy <br/>
             <input type="radio" name="difficultyLevel" value="normal"/> Normal <br/>
             <input type="radio" name="difficultyLevel" value="hard"/> Hard<br/> <br/>
-            <input type="button" onclick="state.loadProspect('screen_new');" value="Take Me To The Moon!"/>
+            <input type="button" onclick="proc('screen_new');" value="Take Me To The Moon!"/>
           </div>
-          <div class="menucontainer classBtn" onclick="state.loadMainMenu('screen_new');"></div>
         </div>
       </div>
       <!-- LAYER: CONTINUE -->
@@ -71,55 +79,84 @@
       <!-- LAYER: PROSPECT -->
       <div id="screen_prospect" class="gamelayer">
         <div id="control_prospect">
-          <div class="menucontainer classBtn" onclick="state.loadDashboard('screen_prospect');"></div>  
+          <div class="menucontainer classBtn textcenter" style="background-color:rgba(0,0,100,0.7);margin-top:100px;color:white;font-size:20px" onclick="state.loadDashboard('screen_prospect');"> BACKSTORY </div>  
         </div>
       </div>
       <!-- LAYER: DASHBOARD -->
       <div id="screen_dashboard" class="gamelayer">
         <div id="control_dashboard">
-          <div class="menucontainer classBtn" id="btnTransportation" onclick="state.loadTransportation('screen_dashboard');"></div>
-          <div class="menucontainer classBtn" id="btnResearch" onclick="state.loadResearch('screen_dashboard');"></div>
-          <div class="menucontainer classBtn" id="btnProduction" onclick="state.loadProduction('screen_dashboard');"></div>
+          <div class="menucontainer classBtn" id="btnSave" onclick="gamedata.save.fire()"></div>
+          <div class="menucontainer classBtn" id="btnSave" onclick="gamedata.load.fire()"></div>
+          <div class="menucontainer classBtn" id="btnNorthPole" onclick="state.loadNorthPole();"></div>
+          <div class="menucontainer classBtn" id="btnEquator" onclick="state.loadEquator();"></div>
+          <div class="menucontainer classBtn" id="btnSouthPole" onclick="state.loadSouthPole();"></div>
           <div class="menucontainer classBtn" onclick="state.loadMainMenu('screen_dashboard');"></div>
         </div>
       </div>
       <!-- LAYER: SITE - TRANSPORTATION -->
-      <div id="screen_sitetransportation" class="gamelayer">
-        <div id="control_sitetransportation">
-          TRANSPORTATION SITES <br/>
-          Building 1 <br/>
-          Building 2 <br/>
-          Building 3 <br/>
-          Building 4 <br/>
-          Building 5 <br/>
-          Building 6 <br/>
-          <div class="menucontainer classBtn" onclick="state.loadDashboard('screen_sitetransportation');"></div>
+      <div id="screen_sitenorthpole" class="gamelayer gamesublayer">
+        <div id="control_sitenorthpole">
+          <div id="buildingListNorth"></div>
+          <div class="menucontainer classBtn closeBtn" onclick="state.leaveNorthPole(state.loadDashboard,'screen_sitenorthpole');"></div>
+          <div class="textcenter" style="margin-top:0px">
+            <select id="buildingList1" onchange="">
+              <option value="Moon Base">Moon Base</option>
+              <option value="Solar Panel Array">Solar Panel Array</option>
+              <option value="Ice Mine">Ice Mine</option>
+              <option value="Regolith Processor">Regolith Processor</option>
+              <option value="Nuclear Plant">Nuclear Plant</option>
+              <option value="Water Processor">Water Processor</option>
+              <option value="Smelting Facility">Smelting Facility</option>
+              <option value="Propellant Factory">Propellant Factory</option>
+              <option value="Electronics Factory">Electronics Factory</option>
+              <option value="Robot Factory">Robot Factory</option>
+            </select>
+            <input type="button" value="Build A Building" onclick="construct.build(0,document.getElementById('buildingList1').value);"/>
+          </div>
         </div>
       </div>
       <!-- LAYER: SITE - RESEARCH -->
-      <div id="screen_siteresearch" class="gamelayer">
-        <div id="control_siteresearch">
-          RESEARCH SITES <br/>
-          Building 1 <br/>
-          Building 2 <br/>
-          Building 3 <br/>
-          Building 4 <br/>
-          Building 5 <br/>
-          Building 6 <br/>
-          <div class="menucontainer classBtn" onclick="state.loadDashboard('screen_siteresearch');"></div>
+      <div id="screen_siteequator" class="gamelayer gamesublayer">
+        <div id="control_siteequator" style="padding-top:10px">
+          <div id="buildingListEq"></div>
+          <div class="menucontainer classBtn closeBtn" onclick="state.leaveEquator(state.loadDashboard,'screen_siteequator');"></div>
+          <div class="textcenter" style="margin-top:0px">
+            <select id="buildingList2" onchange="">
+              <option value="Moon Base">Moon Base</option>
+              <option value="Solar Panel Array">Solar Panel Array</option>
+              <option value="Ice Mine">Ice Mine</option>
+              <option value="Regolith Processor">Regolith Processor</option>
+              <option value="Nuclear Plant">Nuclear Plant</option>
+              <option value="Water Processor">Water Processor</option>
+              <option value="Smelting Facility">Smelting Facility</option>
+              <option value="Propellant Factory">Propellant Factory</option>
+              <option value="Electronics Factory">Electronics Factory</option>
+              <option value="Robot Factory">Robot Factory</option>
+            </select>
+            <input type="button" value="Build A Building" onclick="construct.build(1,document.getElementById('buildingList2').value);"/>
+          </div>
         </div>
       </div>
       <!-- LAYER: SITE - RESOURCE -->
-      <div id="screen_siteproduction" class="gamelayer">
-        <div id="control_siteproduction">
-          RESOURCE SITES <br/>
-          Building 1 <br/>
-          Building 2 <br/>
-          Building 3 <br/>
-          Building 4 <br/>
-          Building 5 <br/>
-          Building 6 <br/>
-          <div class="menucontainer classBtn" onclick="state.loadDashboard('screen_siteproduction');"></div>
+      <div id="screen_sitesouthpole" class="gamelayer gamesublayer">
+        <div id="control_sitesouthpole">
+          <div id="buildingListSouth"></div>
+          <div class="menucontainer classBtn closeBtn" onclick="state.leaveSouthPole(state.loadDashboard,'screen_sitesouthpole');"></div>
+          <div class="textcenter" style="margin-top:0px">
+            <select id="buildingList3" onchange="">
+              <option value="Moon Base">Moon Base</option>
+              <option value="Solar Panel Array">Solar Panel Array</option>
+              <option value="Ice Mine">Ice Mine</option>
+              <option value="Regolith Processor">Regolith Processor</option>
+              <option value="Nuclear Plant">Nuclear Plant</option>
+              <option value="Water Processor">Water Processor</option>
+              <option value="Smelting Facility">Smelting Facility</option>
+              <option value="Propellant Factory">Propellant Factory</option>
+              <option value="Electronics Factory">Electronics Factory</option>
+              <option value="Robot Factory">Robot Factory</option>
+            </select>
+            <input type="button" value="Build A Building" onclick="construct.build(2,document.getElementById('buildingList3').value);"/>
+          </div>
         </div>
       </div>
       <script type="text/javascript" src="cordova-2.6.0.js"></script>

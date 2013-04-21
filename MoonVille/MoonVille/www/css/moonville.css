@@ -1,3 +1,21 @@
+/* @font-face kit by Fonts2u (http://www.fonts2u.com) */ 
+@font-face {
+	font-family:abcdef;
+	src:
+		url("REPUBLK_.eot?") format("eot"),
+		url("REPUBLK_.woff") format("woff"),
+		url("REPUBLK_.ttf") format("truetype"),
+		url("REPUBLK_.svg#Republikaps") format("svg");
+	font-weight:normal;
+	font-style:normal;
+}
+
+
+html {
+	height:100%;
+	width:100%;
+}
+
 body {
 	overflow:hidden;
 	-ms-content-zooming:none;
@@ -19,7 +37,6 @@ body {
 	width:100%;
 	position:absolute;
 	display:none;
-
 	background-image:url(../asset/background/background_main.png);
 	background-size: 100%;
 	background-repeat:no-repeat;
@@ -42,13 +59,40 @@ body {
 	
 }
 
+#screen_dashboard{
+	background-image:url(../asset/background/background_dashboard.png);
+	background-size: 100%;
+	background-repeat:no-repeat;
+}
+
+#newcompanyform{
+	background-image:url(../asset/background/background_newcompany.png);
+	margin-top:110px;
+	background-size: 100%;
+	background-repeat:no-repeat;
+	width:100%;
+	height:0px;
+}
+
+.gamesublayer {
+	background-image:url(../asset/background/background_siteoverview.png);
+	margin-right:-100%;
+	margin-top:0px;
+	background-size:100%;
+	background-repeat:no-repeat;
+	width:90%;
+	height:740px;
+	position:absolute;
+	right:0;
+	color:white;
+}
+
 
 /** MENU UI */
 
 .menucontainer{
 	width:480px;
 	height:84px;
-	
 }
 
 #btnNewGame{
@@ -73,6 +117,40 @@ body {
 	background-size: 100%;
 	background-repeat:no-repeat;
 	margin-left:-100%;
+}
+
+#btnNewCompany {
+	background-image:url(../asset/button/btnNewCompany.png);
+	background-size: 100%;
+	background-repeat:no-repeat;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:20px;
+	width:95%;
+}
+
+#btnNorthPole{
+	position:absolute;
+	width:116px;
+	height:116px;
+	left:247px;
+	top:201px;
+}
+
+#btnEquator{
+	position:absolute;
+	width:116px;
+	height:116px;
+	left:118px;
+	top:340px;
+}
+
+#btnSouthPole{
+	position:absolute;
+	width:116px;
+	height:116px;
+	left:184px;
+	top:559px;
 }
 
 #newcompanyform input[type="text"]{
@@ -106,6 +184,41 @@ body {
 #newcompanyform input[type="text"]:focus
 {
     box-shadow:0 0 2px #FFFE00;
+}
+
+.singleBuilding {
+	border:2px solid black;
+	width:90%;
+	height:130px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:10px;
+	padding:3px;
+	background-color:rgba(0,0,0,0.8);
+}
+
+.buildingImage{
+	border:1px solid white;
+}
+
+.buildingDetail{
+	text-align:left;
+	height:130px;
+	font-size:16px;
+	color:#0072d5;
+	font-family:abcdef;
+	margin-left:140px;
+}
+
+.closeBtn{
+	position:absolute;
+	top:10px;
+	left:0px;
+	background-image:url(../asset/button/btnClose.png);
+	background-repeat:no-repeat;
+	background-size:100%;
+	width:40px;
+	height:40px;
 }
 
 .textcenter {

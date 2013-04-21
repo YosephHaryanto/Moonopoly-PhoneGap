@@ -1,5 +1,5 @@
-﻿<xapCache source="C:\Users\AFB\Documents\Visual Studio 2012\Projects\MoonVille\MoonVille\Bin\Debug\CordovaAppProj_Debug_AnyCPU.xap" wasSigned="False" certificateThumbprint="" TimeStampUrl="" lastWriteTime="4/20/2013 7:14:29 PM">
-  <file source="C:\Users\AFB\Documents\Visual Studio 2012\Projects\MoonVille\MoonVille\obj\Debug\MoonVille.dll" archivePath="MoonVille.dll" lastWriteTime="4/20/2013 5:37:53 PM" />
+﻿<xapCache source="C:\Users\AFB\Documents\Visual Studio 2012\Projects\MoonVille\MoonVille\Bin\Debug\CordovaAppProj_Debug_AnyCPU.xap" wasSigned="False" certificateThumbprint="" TimeStampUrl="" lastWriteTime="4/21/2013 7:11:06 AM">
+  <file source="C:\Users\AFB\Documents\Visual Studio 2012\Projects\MoonVille\MoonVille\obj\Debug\MoonVille.dll" archivePath="MoonVille.dll" lastWriteTime="4/21/2013 7:07:54 AM" />
   <file source="C:\Users\AFB\Documents\Visual Studio 2012\Projects\MoonVille\MoonVille\config.xml" archivePath="config.xml" lastWriteTime="4/19/2013 8:27:49 PM" />
   <file source="C:\Users\AFB\Documents\Visual Studio 2012\Projects\MoonVille\MoonVille\Images\appbar.back.rest.png" archivePath="Images\appbar.back.rest.png" lastWriteTime="4/19/2013 8:27:49 PM" />
   <file source="C:\Users\AFB\Documents\Visual Studio 2012\Projects\MoonVille\MoonVille\Images\appbar.close.rest.png" archivePath="Images\appbar.close.rest.png" lastWriteTime="4/19/2013 8:27:49 PM" />
@@ -8,20 +8,50 @@
   <file source="C:\Users\AFB\Documents\Visual Studio 2012\Projects\MoonVille\MoonVille\Images\appbar.save.rest.png" archivePath="Images\appbar.save.rest.png" lastWriteTime="4/19/2013 8:27:49 PM" />
   <file source="C:\Users\AFB\Documents\Visual Studio 2012\Projects\MoonVille\MoonVille\Images\appbar.stop.rest.png" archivePath="Images\appbar.stop.rest.png" lastWriteTime="4/19/2013 8:27:49 PM" />
   <file source="C:\Users\AFB\Documents\Visual Studio 2012\Projects\MoonVille\MoonVille\resources\notification-beep.wav" archivePath="resources\notification-beep.wav" lastWriteTime="4/19/2013 8:27:49 PM" />
+  <file source="C:\Users\AFB\Documents\Visual Studio 2012\Projects\MoonVille\MoonVille\www\asset\background\background_dashboard.png" archivePath="www\asset\background\background_dashboard.png" lastWriteTime="4/20/2013 8:21:15 AM" />
   <file source="C:\Users\AFB\Documents\Visual Studio 2012\Projects\MoonVille\MoonVille\www\asset\background\background_main.png" archivePath="www\asset\background\background_main.png" lastWriteTime="4/20/2013 5:37:39 PM" />
+  <file source="C:\Users\AFB\Documents\Visual Studio 2012\Projects\MoonVille\MoonVille\www\asset\background\background_newcompany.png" archivePath="www\asset\background\background_newcompany.png" lastWriteTime="4/20/2013 6:53:43 AM" />
+  <file source="C:\Users\AFB\Documents\Visual Studio 2012\Projects\MoonVille\MoonVille\www\asset\background\background_siteoverview.png" archivePath="www\asset\background\background_siteoverview.png" lastWriteTime="4/21/2013 3:17:36 AM" />
+  <file source="C:\Users\AFB\Documents\Visual Studio 2012\Projects\MoonVille\MoonVille\www\asset\building\moon_base.png" archivePath="www\asset\building\moon_base.png" lastWriteTime="4/20/2013 11:02:48 PM" />
+  <file source="C:\Users\AFB\Documents\Visual Studio 2012\Projects\MoonVille\MoonVille\www\asset\building\nuclear_plant.png" archivePath="www\asset\building\nuclear_plant.png" lastWriteTime="4/20/2013 11:12:28 PM" />
+  <file source="C:\Users\AFB\Documents\Visual Studio 2012\Projects\MoonVille\MoonVille\www\asset\building\propellant_factory.png" archivePath="www\asset\building\propellant_factory.png" lastWriteTime="4/20/2013 11:13:12 PM" />
+  <file source="C:\Users\AFB\Documents\Visual Studio 2012\Projects\MoonVille\MoonVille\www\asset\building\regolith_processor.png" archivePath="www\asset\building\regolith_processor.png" lastWriteTime="4/20/2013 11:14:20 PM" />
+  <file source="C:\Users\AFB\Documents\Visual Studio 2012\Projects\MoonVille\MoonVille\www\asset\building\robot_factory.png" archivePath="www\asset\building\robot_factory.png" lastWriteTime="4/20/2013 11:15:24 PM" />
+  <file source="C:\Users\AFB\Documents\Visual Studio 2012\Projects\MoonVille\MoonVille\www\asset\building\smelting_facility.png" archivePath="www\asset\building\smelting_facility.png" lastWriteTime="4/20/2013 11:16:16 PM" />
+  <file source="C:\Users\AFB\Documents\Visual Studio 2012\Projects\MoonVille\MoonVille\www\asset\building\solar_panel.png" archivePath="www\asset\building\solar_panel.png" lastWriteTime="4/20/2013 10:56:36 PM" />
+  <file source="C:\Users\AFB\Documents\Visual Studio 2012\Projects\MoonVille\MoonVille\www\asset\button\btnClose.png" archivePath="www\asset\button\btnClose.png" lastWriteTime="4/21/2013 3:42:54 AM" />
+  <file source="C:\Users\AFB\Documents\Visual Studio 2012\Projects\MoonVille\MoonVille\www\asset\button\btnNewCompany.png" archivePath="www\asset\button\btnNewCompany.png" lastWriteTime="4/20/2013 6:16:58 AM" />
   <file source="C:\Users\AFB\Documents\Visual Studio 2012\Projects\MoonVille\MoonVille\www\asset\button\btnNewGame.png" archivePath="www\asset\button\btnNewGame.png" lastWriteTime="4/20/2013 4:37:18 AM" />
   <file source="C:\Users\AFB\Documents\Visual Studio 2012\Projects\MoonVille\MoonVille\www\asset\button\btnContinue.png" archivePath="www\asset\button\btnContinue.png" lastWriteTime="4/20/2013 4:37:33 AM" />
   <file source="C:\Users\AFB\Documents\Visual Studio 2012\Projects\MoonVille\MoonVille\www\asset\button\btnCredits.png" archivePath="www\asset\button\btnCredits.png" lastWriteTime="4/20/2013 4:37:49 AM" />
   <file source="C:\Users\AFB\Documents\Visual Studio 2012\Projects\MoonVille\MoonVille\www\cordova-2.6.0.js" archivePath="www\cordova-2.6.0.js" lastWriteTime="4/20/2013 3:34:16 PM" />
-  <file source="C:\Users\AFB\Documents\Visual Studio 2012\Projects\MoonVille\MoonVille\www\css\moonville.css" archivePath="www\css\moonville.css" lastWriteTime="4/20/2013 7:13:02 PM" />
-  <file source="C:\Users\AFB\Documents\Visual Studio 2012\Projects\MoonVille\MoonVille\www\img\logo.png" archivePath="www\img\logo.png" lastWriteTime="4/19/2013 8:27:49 PM" />
-  <file source="C:\Users\AFB\Documents\Visual Studio 2012\Projects\MoonVille\MoonVille\www\js\index.js" archivePath="www\js\index.js" lastWriteTime="4/20/2013 5:05:11 PM" />
-  <file source="C:\Users\AFB\Documents\Visual Studio 2012\Projects\MoonVille\MoonVille\www\js\jquery-1.9.1.min.js" archivePath="www\js\jquery-1.9.1.min.js" lastWriteTime="4/19/2013 8:40:35 PM" />
-  <file source="C:\Users\AFB\Documents\Visual Studio 2012\Projects\MoonVille\MoonVille\www\js\moonville.js" archivePath="www\js\moonville.js" lastWriteTime="4/20/2013 3:55:27 PM" />
-  <file source="C:\Users\AFB\Documents\Visual Studio 2012\Projects\MoonVille\MoonVille\www\js\screentransition.js" archivePath="www\js\screentransition.js" lastWriteTime="4/20/2013 7:14:20 PM" />
-  <file source="C:\Users\AFB\Documents\Visual Studio 2012\Projects\MoonVille\MoonVille\cordovalib\resources\notification-beep.wav" archivePath="cordovalib\resources\notification-beep.wav" lastWriteTime="4/19/2013 8:27:49 PM" />
   <file source="C:\Users\AFB\Documents\Visual Studio 2012\Projects\MoonVille\MoonVille\www\css\index.css" archivePath="www\css\index.css" lastWriteTime="4/20/2013 3:03:04 PM" />
-  <file source="C:\Users\AFB\Documents\Visual Studio 2012\Projects\MoonVille\MoonVille\www\index.html" archivePath="www\index.html" lastWriteTime="4/20/2013 7:08:12 PM" />
+  <file source="C:\Users\AFB\Documents\Visual Studio 2012\Projects\MoonVille\MoonVille\www\css\moonville.css" archivePath="www\css\moonville.css" lastWriteTime="4/21/2013 4:11:55 AM" />
+  <file source="C:\Users\AFB\Documents\Visual Studio 2012\Projects\MoonVille\MoonVille\www\css\REPUBLK_.svg" archivePath="www\css\REPUBLK_.svg" lastWriteTime="4/21/2013 2:52:04 AM" />
+  <file source="C:\Users\AFB\Documents\Visual Studio 2012\Projects\MoonVille\MoonVille\www\img\logo.png" archivePath="www\img\logo.png" lastWriteTime="4/19/2013 8:27:49 PM" />
+  <file source="C:\Users\AFB\Documents\Visual Studio 2012\Projects\MoonVille\MoonVille\www\js\backend\buildingjson.js" archivePath="www\js\backend\buildingjson.js" lastWriteTime="4/20/2013 3:40:12 PM" />
+  <file source="C:\Users\AFB\Documents\Visual Studio 2012\Projects\MoonVille\MoonVille\www\js\backend\BuildingType.js" archivePath="www\js\backend\BuildingType.js" lastWriteTime="4/20/2013 2:28:44 PM" />
+  <file source="C:\Users\AFB\Documents\Visual Studio 2012\Projects\MoonVille\MoonVille\www\js\backend\code.js" archivePath="www\js\backend\code.js" lastWriteTime="4/21/2013 7:10:59 AM" />
+  <file source="C:\Users\AFB\Documents\Visual Studio 2012\Projects\MoonVille\MoonVille\www\js\backend\Company.js" archivePath="www\js\backend\Company.js" lastWriteTime="4/20/2013 4:22:12 PM" />
+  <file source="C:\Users\AFB\Documents\Visual Studio 2012\Projects\MoonVille\MoonVille\www\js\backend\market.js" archivePath="www\js\backend\market.js" lastWriteTime="4/20/2013 2:28:44 PM" />
+  <file source="C:\Users\AFB\Documents\Visual Studio 2012\Projects\MoonVille\MoonVille\www\js\backend\MoonBase.js" archivePath="www\js\backend\MoonBase.js" lastWriteTime="4/20/2013 4:44:28 PM" />
+  <file source="C:\Users\AFB\Documents\Visual Studio 2012\Projects\MoonVille\MoonVille\www\js\backend\MoonBaseJSON.js" archivePath="www\js\backend\MoonBaseJSON.js" lastWriteTime="4/20/2013 3:03:16 PM" />
+  <file source="C:\Users\AFB\Documents\Visual Studio 2012\Projects\MoonVille\MoonVille\www\js\backend\Resources.js" archivePath="www\js\backend\Resources.js" lastWriteTime="4/20/2013 4:25:10 PM" />
+  <file source="C:\Users\AFB\Documents\Visual Studio 2012\Projects\MoonVille\MoonVille\www\js\backend\ResourcesJSON.js" archivePath="www\js\backend\ResourcesJSON.js" lastWriteTime="4/20/2013 3:46:47 PM" />
+  <file source="C:\Users\AFB\Documents\Visual Studio 2012\Projects\MoonVille\MoonVille\www\js\backend\save.js" archivePath="www\js\backend\save.js" lastWriteTime="4/20/2013 2:28:44 PM" />
+  <file source="C:\Users\AFB\Documents\Visual Studio 2012\Projects\MoonVille\MoonVille\www\js\index.js" archivePath="www\js\index.js" lastWriteTime="4/21/2013 12:20:41 AM" />
+  <file source="C:\Users\AFB\Documents\Visual Studio 2012\Projects\MoonVille\MoonVille\www\js\jquery-1.9.1.min.js" archivePath="www\js\jquery-1.9.1.min.js" lastWriteTime="4/19/2013 8:40:35 PM" />
+  <file source="C:\Users\AFB\Documents\Visual Studio 2012\Projects\MoonVille\MoonVille\www\js\jqueryUI.js" archivePath="www\js\jqueryUI.js" lastWriteTime="4/20/2013 7:40:08 PM" />
+  <file source="C:\Users\AFB\Documents\Visual Studio 2012\Projects\MoonVille\MoonVille\www\js\jstween-1.1.min.js" archivePath="www\js\jstween-1.1.min.js" lastWriteTime="4/20/2013 10:21:10 PM" />
+  <file source="C:\Users\AFB\Documents\Visual Studio 2012\Projects\MoonVille\MoonVille\www\js\loader.js" archivePath="www\js\loader.js" lastWriteTime="4/21/2013 12:20:50 AM" />
+  <file source="C:\Users\AFB\Documents\Visual Studio 2012\Projects\MoonVille\MoonVille\www\js\moonville.js" archivePath="www\js\moonville.js" lastWriteTime="4/20/2013 9:08:46 PM" />
+  <file source="C:\Users\AFB\Documents\Visual Studio 2012\Projects\MoonVille\MoonVille\www\js\screentransition.js" archivePath="www\js\screentransition.js" lastWriteTime="4/21/2013 7:05:10 AM" />
+  <file source="C:\Users\AFB\Documents\Visual Studio 2012\Projects\MoonVille\MoonVille\www\sound\music\moonloop1.mp3" archivePath="www\sound\music\moonloop1.mp3" lastWriteTime="4/20/2013 11:29:38 PM" />
+  <file source="C:\Users\AFB\Documents\Visual Studio 2012\Projects\MoonVille\MoonVille\www\sound\music\moonloop1.wav" archivePath="www\sound\music\moonloop1.wav" lastWriteTime="4/20/2013 11:14:52 PM" />
+  <file source="C:\Users\AFB\Documents\Visual Studio 2012\Projects\MoonVille\MoonVille\www\sound\sfx\tap.mp3" archivePath="www\sound\sfx\tap.mp3" lastWriteTime="4/20/2013 11:24:54 PM" />
+  <file source="C:\Users\AFB\Documents\Visual Studio 2012\Projects\MoonVille\MoonVille\www\sound\sfx\tap.wav" archivePath="www\sound\sfx\tap.wav" lastWriteTime="4/20/2013 7:40:32 PM" />
+  <file source="C:\Users\AFB\Documents\Visual Studio 2012\Projects\MoonVille\MoonVille\cordovalib\resources\notification-beep.wav" archivePath="cordovalib\resources\notification-beep.wav" lastWriteTime="4/19/2013 8:27:49 PM" />
+  <file source="C:\Users\AFB\Documents\Visual Studio 2012\Projects\MoonVille\MoonVille\www\index.html" archivePath="www\index.html" lastWriteTime="4/21/2013 7:10:43 AM" />
   <file source="C:\Users\AFB\Documents\Visual Studio 2012\Projects\MoonVille\MoonVille\SplashScreenImage.jpg" archivePath="SplashScreenImage.jpg" lastWriteTime="4/19/2013 8:27:49 PM" />
   <file source="C:\Users\AFB\Documents\Visual Studio 2012\Projects\MoonVille\MoonVille\Bin\Debug\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="4/19/2013 8:30:46 PM" />
   <file source="C:\Users\AFB\Documents\Visual Studio 2012\Projects\MoonVille\MoonVille\Bin\Debug\ApplicationIcon.png" archivePath="ApplicationIcon.png" lastWriteTime="4/19/2013 8:27:49 PM" />
